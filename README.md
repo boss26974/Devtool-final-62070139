@@ -80,3 +80,10 @@ Link of trello : https://trello.com/b/WYsEEMiu/devtoolfinal62070139
 4. ทำการพิมพ์คำสั่ง npm install เพื่อติดตั้ง dependencies และรอจนติดตั้งเสร็จ
 5. เมื่อติดตั้งเสร็จ ให้ทำการพิมพ์คำสั่ง npm run dev เพื่อทำการ run project frontend
 6. เมื่อ run เปิด frontend สำเร็จ ให้ทดลองยิง postman แบบ get ไปที่ path http://localhost:3000/allcourses เพื่อเข้าใช้งาน
+
+## วิธี build & deploy docker Frontend
+1. ทำการ clone github ลงเครื่องโดยใช้ github desktop
+2. ทำการเปิด command prompt ที่ directory ของ project ที่ clone มา
+3. ทำการพิมพ์คำสั่ง cd frontend
+4. ทำการพิมพ์คำสั่ง docker build -t pitchaya .
+5. หลังทำการ build เสร็จแล้ว ให้ทำการพิมพ์คำสั่ง docker run -dp pitchaya เพื่อทำการ run project
