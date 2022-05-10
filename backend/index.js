@@ -6,8 +6,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const students = require("./routes/students")
+const course = require("./routes/course")
 
-app.use("/", students)
+app.use("/", course)
 
 app.listen(3000, () => console.log(`server start on port 3000`));
