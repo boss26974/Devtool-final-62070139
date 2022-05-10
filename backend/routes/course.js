@@ -12,7 +12,7 @@ mongoose.connection.on("connected", () => {
 const router = express.Router();
 
 router.get("/allcourses", async (req, res) => {
-    const allcourses = await Student.find({})
+    const allcourses = await Course.find({})
     res.json(allcourses)
 })
 

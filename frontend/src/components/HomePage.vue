@@ -6,19 +6,39 @@
                 <div class="col-6 offset-3 align-self-center">
                     <div class="mb-3">
                         <label for="disabledTextInput" class="form-label">ค้นหา 'คณะ'</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="disabledTextInput" class="form-label">ค้นหา 'รอบรับสมัคร'</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="disabledTextInput" class="form-label">ค้นหา 'โครงการ'</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="disabledTextInput" class="form-label">ค้นหาหลักสูตร ไทย / นานาชาติ</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
                     </div>
                     <label for="inputPassword5" class="form-label">คำค้นหาเพิ่มเติม (Enter เพื่อแยกคำ) [ระบบจะค้นจากชื่อคณะ,หลักสูตร]</label>
                     <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
