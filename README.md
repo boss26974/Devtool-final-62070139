@@ -72,3 +72,11 @@ Link of trello : https://trello.com/b/WYsEEMiu/devtoolfinal62070139
 4. ทำการพิมพ์คำสั่ง npm install เพื่อติดตั้ง dependencies และรอจนติดตั้งเสร็จ
 5. เมื่อติดตั้งเสร็จ ให้ทำการพิมพ์คำสั่ง npm run serve เพื่อทำการ run project frontend
 6. เมื่อ run เปิด frontend สำเร็จ ให้ทำการเปิดเว็บไซต์ที่ http://localhost:8080 เพื่อเข้าใช้งาน
+
+### backend
+1. ทำการ clone github ลงเครื่องโดยใช้ github desktop
+2. ทำการเปิด command prompt ที่ directory ของ project ที่ clone มา
+3. ทำการพิมพ์คำสั่ง cd backend
+4. ทำการพิมพ์คำสั่ง npm install เพื่อติดตั้ง dependencies และรอจนติดตั้งเสร็จ
+5. เมื่อติดตั้งเสร็จ ให้ทำการพิมพ์คำสั่ง npm run dev เพื่อทำการ run project frontend
+6. เมื่อ run เปิด frontend สำเร็จ ให้ทดลองยิง postman แบบ get ไปที่ path http://localhost:3000/allcourses เพื่อเข้าใช้งาน
